@@ -1,5 +1,4 @@
 ---
-
 ---
 
 <html lang="en">
@@ -8,9 +7,19 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="main.css">
+		<script src="../scripts/preload.js" />
+		<script src="../scripts/animation.js" />
 		<title>Eye-Track Experiment | aldenw.ong</title>
 	</head>
 	<body>
+		<div class="bodyContainer">
+			<img id="body" src="img/eyetrack/body.png" draggable="false">
+			<img id="eyeL" src="img/eyetrack/eye_L.png" draggable="false">
+			<img id="eyeR" src="img/eyetrack/eye_R.png" draggable="false">
+		</div>
 
+		<div style="width:100%; height:5em; content:'';" />
 	</body>
 </html>

@@ -1,0 +1,35 @@
+.bodyContainer {
+    #body {
+        position: absolute;
+        top: 50vh;
+        left: 50%;
+        height: 70vh;
+        width: 70%;
+        object-fit: cover;
+        object-position: top;
+    }
+    #eyeL {
+        position: absolute;
+        top: 50vh;
+        left: 50%;
+        height: 70vh;
+        width: 70%;
+        object-fit: cover;
+        object-position: top;
+    }
+    #eyeR {
+        position: absolute;
+        top: 50vh;
+        left: 50%;
+        height: 70vh;
+        width: 70%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+body {
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden;
+}
