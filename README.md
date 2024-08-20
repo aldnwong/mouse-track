@@ -4,4 +4,4 @@ This person tracks the position of the mouse relative to the location of the per
 The person will open their eyes wider if the mouse gets close to them, and has an animation to hide when toggled.
 This is a barebones version of the final product just to try and make a proof of concept before moving on to creating the full portfolio website.
 
-View the experiment [here](https://aldenw.ong/eye-track)
+View the experiment [here](https://aldenw.ong/eye-track).
