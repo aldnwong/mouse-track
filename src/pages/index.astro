@@ -9,8 +9,9 @@
 		<meta name="generator" content={Astro.generator} />
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900">
 		<script src="../scripts/preload.js" />
-		<script src="../scripts/animation.js" />
+		<script src="../scripts/animate.js" />
 		<title>Eye-Track Experiment | aldenw.ong</title>
 	</head>
 	<body>
@@ -19,6 +20,19 @@
 			<img id="eyeL" src="img/eyetrack/eye_L.png" draggable="false">
 			<img id="eyeR" src="img/eyetrack/eye_R.png" draggable="false">
 		</div>
+
+		<div style="padding:2em; width: 50vw;">
+			<h1 style="font-family: 'Poppins'; font-weight: 800; font-size: 3em; padding-bottom:1em;">Eye-track Experiment</h1>
+			<p style="font-family: 'Poppins'; font-weight: 500; font-size: 1em; padding-bottom:1em; line-height: 1.2em;">
+				This experiment serves as the testing grounds of an effect I want to implement into a new version of my <a href="https://aldenw.ong" target="_blank">portfolio</a> website.
+				This person tracks the position of the mouse relative to the location of the person's eyes.
+				The person will open their eyes wider if the mouse gets close to them, and has an animation to hide when toggled.
+				This is a barebones version of the final product just to try and make a proof of concept before moving on to creating the full portfolio website.
+			</p>
+			<button id="button">Hide Person</button>
+		</div>
+
+		<span id="scriptSpan"></span>
 
 		<div style="width:100%; height:5em; content:'';" />
 	</body>

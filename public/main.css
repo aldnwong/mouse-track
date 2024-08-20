@@ -1,4 +1,8 @@
 .bodyContainer {
+    * {
+        transition: .1s;
+    }
+
     #body {
         position: absolute;
         top: 50vh;
@@ -16,6 +20,7 @@
         width: 70%;
         object-fit: cover;
         object-position: top;
+        z-index: -1;
     }
     #eyeR {
         position: absolute;
@@ -25,6 +30,7 @@
         width: 70%;
         object-fit: cover;
         object-position: top;
+        z-index: -1;
     }
 }
 
