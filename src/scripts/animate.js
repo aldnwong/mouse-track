@@ -51,7 +51,7 @@ addEventListener("mousemove", (event) => {
     }
 
     // REMOVE: for exper only, remove in final
-    scriptspan.innerText = `CLIENT COORDS: ${event.clientX}, ${event.clientY}\nELEMENT CENTER: ${wCen}, ${hCen}\nDISTANCE TO CENTER: ${distX}, ${distY}\nFACE BOUNDS: (${faceBoundL} - ${faceBoundR}), (${faceBoundT} - ${faceBoundB})`;
+    scriptspan.innerText = `CLIENT COORDS: ${event.clientX}, ${event.clientY}\nELEMENT CENTER: ${wCen}, ${hCen}\nDISTANCE TO CENTER: ${distX}, ${distY}`;
 });
 
 // REMOVE: for exper only, remove in final
