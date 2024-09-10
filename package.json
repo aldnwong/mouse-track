@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^3.1.2",
+    "@astrojs/cloudflare": "^11.0.4",
     "astro": "^4.15.4",
     "path-to-regexp": "^8.0.0"
   }
